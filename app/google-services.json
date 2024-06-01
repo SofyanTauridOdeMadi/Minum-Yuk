@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "814318720535",
+    "firebase_url": "https://minumyuk-aafb6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "minumyuk-aafb6",
+    "storage_bucket": "minumyuk-aafb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814318720535:android:277fa97bd7d73fdc9f2e52",
+        "android_client_info": {
+          "package_name": "minumyuk.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814318720535-7fcvloqrakat9esbbomk1j8pieq0r9gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMsUWq8sZy2LXJTlb_f7EvYevPYLXuQXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814318720535-7fcvloqrakat9esbbomk1j8pieq0r9gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
