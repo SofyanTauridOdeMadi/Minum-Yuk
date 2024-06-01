@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="#FFC0C0C0"/> <!-- Warna track yang belum diisi -->
+            <size android:width="15dp" android:height="15dp"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dp" />
+                <solid android:color="#9BE0FF"/> <!-- Warna biru untuk track -->
+                <size android:width="15dp" android:height="15dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

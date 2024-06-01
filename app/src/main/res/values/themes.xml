@@ -1,0 +1,25 @@
+<resources>
+
+<color name="primary_color">#5DCCFC</color>
+<color name="secondary_color">#0F80FD</color>
+<color name="text_color_4">#9BE0FF</color>
+<color name="text_color_3">#5686F5</color>
+<color name="text_color_2">#625D5D</color>
+<color name="text_color_1">#000000</color>
+
+<style name="Theme.MinumYuk" parent="Theme.Material3.DayNight.NoActionBar">
+
+    <item name="android:navigationBarColor">#B7E9FD</item>
+    <item name="android:statusBarColor">#B7E9FD</item>
+
+    <!-- Atur warna primer -->
+    <item name="colorPrimary">#5DCCFC</item>
+    <item name="colorPrimaryDark">#5DCCFC</item>
+
+    <!-- Atur warna teks -->
+    <item name="android:textColorPrimary">@color/text_color_1</item>
+    <item name="android:textColorSecondary">@color/text_color_2</item>
+    <item name="android:textColorTertiary">@color/text_color_3</item>
+    <item name="android:textColor">@color/text_color_4</item>
+</style>
+</resources>
