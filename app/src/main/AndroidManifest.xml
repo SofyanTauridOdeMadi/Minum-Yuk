@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gelas"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gelas"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MinumYuk"
+        tools:targetApi="33">
+        <activity
+            android:name=".pencapaian"
+            android:exported="false" />
+
+        <service
+            android:name=".NotificationService"
+            android:exported="false" />
+
+        <activity android:name=".BarChartView" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".masuk"
+            android:exported="false" />
+        <activity
+            android:name=".daftar"
+            android:exported="false" />
+        <activity
+            android:name=".pengaturan_akun"
+            android:exported="false" />
+        <activity
+            android:name=".statistik"
+            android:exported="false" />
+        <activity
+            android:name=".pengaturan"
+            android:exported="false" />
+        <activity
+            android:name=".r3"
+            android:exported="false" />
+        <activity
+            android:name=".r2"
+            android:exported="false" />
+        <activity
+            android:name=".r1"
+            android:exported="false" />
+        <activity
+            android:name=".beranda"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
